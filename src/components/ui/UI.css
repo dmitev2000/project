@@ -1,0 +1,78 @@
+.custom-button {
+  display: inline-block;
+  position: relative;
+  background: transparent;
+  margin-right: 20px;
+  padding: 10px;
+  border: solid 2px #fff;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.custom-button span::before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 10px;
+  width: 15px;
+  height: 9px;
+  background-color: transparent;
+  border: solid 2px #fff;
+  transition: 0.5s;
+}
+
+.custom-button span::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  right: 10px;
+  width: 15px;
+  height: 9px;
+  background-color: transparent;
+  border: solid 2px #fff;
+  transition: 0.5s;
+}
+
+.custom-button:hover {
+  color: #ff6a3d;
+  border-color: #ff6a3d;
+  box-shadow: 0 0 25px #ff6a3d;
+}
+
+.custom-button:hover span::before {
+  border-color: #ff6a3d;
+  right: 10px;
+  left: auto;
+}
+
+.custom-button:hover span::after {
+  border-color: #ff6a3d;
+  right: auto;
+  left: 10px;
+}
+
+.sub_plan {
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  margin-bottom: 40px;
+  display: inline-block;
+  border: solid 2px #1a2238;
+  border-radius: 25px;
+  flex: 1 1 0;
+}
+
+.sub_plan button {
+    outline: none;
+    border: none;
+    font-weight: bold;
+    color: #ff6a3d;
+    background-color: #1a2238;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sub_plan span {
+    font-size: 2em;
+}
