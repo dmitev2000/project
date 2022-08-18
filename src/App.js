@@ -12,6 +12,7 @@ function App() {
   return <>
     <Routes>
       <Route path='/' element={Home()} />
+      <Route path='/project' element={Home()} />
       <Route path='/todo' element={Todo()} />
       <Route path='/calendar' element={Calendar()} />
       <Route path='/about' element={About()} />
