@@ -67,6 +67,7 @@ const Home = () => {
             type="Circular"
             innerRadius="190%"
             height="160px"
+            width="200px"
             trackThickness={80}
             cornerRadius={"Round"}
             trackColor="#ff6a3d"

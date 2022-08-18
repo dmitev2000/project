@@ -65,8 +65,9 @@
 .home-page .my-progress {
   margin: 100px auto 50px auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 700px;
+  grid-template-columns: 2fr 1fr;
+  max-width: 700px;
+  position: relative;
 }
 
 .home-page .my-progress div:nth-child(1) {
@@ -87,13 +88,18 @@
 .home-page .my-progress button:hover {
   background-color: #ff6a3d;
   color: #1a2238;
-} 
+}
 
 .spinner-wrapper {
   min-height: 65vh;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.calendar-page {
+  width: 246px;
+  margin: 10px auto;
 }
 
 @media screen and (max-width: 1100px) {
@@ -120,11 +126,15 @@
     max-width: 570px;
   }
   .home-page .my-progress {
-    width: 90%;
-    margin: 10px;
+    max-width: 100%;
+    margin: 16px auto;
     padding: 10px;
     grid-template-columns: 1fr;
     margin: 0;
+  }
+  .home-page .my-progress div:nth-child(2) {
+    width: 222px;
+    margin: 0px auto;
   }
 }
 
