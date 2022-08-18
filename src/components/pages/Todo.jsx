@@ -38,6 +38,7 @@ const Todo = () => {
 
   return (
     <div className="container pt-5 pb-5">
+      <h1 className="mb-5">ToDo (Scheduler)</h1>
       <ScheduleComponent currentView="Month" eventSettings={fetchData}>
         <Inject services={[Day, Week, WorkWeek, Month, Agenda]} />
       </ScheduleComponent>

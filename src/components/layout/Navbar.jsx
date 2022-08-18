@@ -69,6 +69,10 @@ const Navbar = () => {
                   <i className="bi bi-bar-chart-line-fill"></i>
                   <span>Column</span>
                 </Link>
+                <Link to="/pie" className="nav-link">
+                  <i className="bi bi-pie-chart-fill"></i>
+                  <span>Pie</span>
+                </Link>
               </div>
             </div>
           </li>

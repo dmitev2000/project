@@ -7,6 +7,7 @@ import About from './components/pages/About';
 import Line from './components/pages/Line';
 import Pyramid from './components/pages/Pyramid';
 import Column from './components/pages/Column';
+import Pie from "./components/pages/Pie";
 
 function App() {
   return <>
@@ -19,6 +20,7 @@ function App() {
       <Route path='/line' element={Line()} />
       <Route path='/column' element={Column()} />
       <Route path='/pyramid' element={Pyramid()} />
+      <Route path='/pie' element={Pie()} />
     </Routes>
   </>;
 }
