@@ -18,13 +18,15 @@ const Pie = () => {
     "https://project-d80d2-default-rtdb.europe-west1.firebasedatabase.app/pieChart.json";
 
   useEffect(() => {
+    setIsLoading(true);
     fetch(URL)
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
+        //console.log(data);
         setFetchData(data);
         setIsLoading(false);
-      });
+      })
+      .catch((err) => console.log(err));
   }, []);
 
   if (isLoading) {

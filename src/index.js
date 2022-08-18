@@ -5,6 +5,7 @@ import App from "./App";
 import Layout from "./components/layout/Layout";
 import { registerLicense } from "@syncfusion/ej2-base";
 import { BrowserRouter as Router } from "react-router-dom";
+import ScrollTopButton from "./components/ui/ScrollTopBtn";
 
 registerLicense(
   "ORg4AjUWIQA/Gnt2VVhiQlFadVlJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRdkJhW35Zc3RUT2RaWUM="
@@ -15,6 +16,7 @@ root.render(
   <Router>
     <Layout>
       <App />
+      <ScrollTopButton />
     </Layout>
   </Router>
 );

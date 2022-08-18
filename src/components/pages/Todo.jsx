@@ -25,7 +25,8 @@ const Todo = () => {
         //console.log(data);
         setFetchData({ dataSource: data });
         setIsLoading(false);
-      });
+      })
+      .catch((err) => console.log(err));
   }, []);
 
   if (isLoading) {
