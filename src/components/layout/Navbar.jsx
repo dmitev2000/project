@@ -1,7 +1,19 @@
 import "./Layout.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 const Navbar = () => {
+  const { pathname } = useLocation();
+  const [isOpen, setIsOpen] = useState(false);
+
+  function onChangeHandler() {
+    setIsOpen(!isOpen);
+  }
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, [pathname]);
+
   return (
     <nav>
       <div className="nav-brand">
@@ -15,7 +27,12 @@ const Navbar = () => {
       <label htmlFor="nav-toggle-btn" className="show-menu-btn">
         <i className="bi bi-caret-down-fill"></i>
       </label>
-      <input type="checkbox" id="nav-toggle-btn" />
+      <input
+        type="checkbox"
+        id="nav-toggle-btn"
+        checked={isOpen}
+        onChange={onChangeHandler}
+      />
       <div className="nav-links-section">
         <ul>
           <li>

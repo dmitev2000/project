@@ -53,8 +53,8 @@ nav .nav-links-section .nav-link i {
 }
 
 nav .nav-links-section .nav-link:hover {
-  text-decoration: underline;
   color: #fff;
+  letter-spacing: .1rem;
 }
 
 .dropdown-links {

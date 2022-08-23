@@ -43,7 +43,7 @@ const Line = () => {
     <div className="container pt-5 pb-5">
       <h1 className="mb-5">Line chart</h1>
       <ChartComponent
-        id="charts"
+        id="line-chart"
         primaryXAxis={{ valueType: "Category" }}
         // eslint-disable-next-line no-template-curly-in-string
         primaryYAxis={{ labelFormat: "${value}K" }}
