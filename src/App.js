@@ -8,6 +8,8 @@ import Line from './components/pages/Line';
 import Pyramid from './components/pages/Pyramid';
 import Column from './components/pages/Column';
 import Pie from "./components/pages/Pie";
+import More from "./components/pages/More";
+import Support from "./components/pages/Support";
 
 function App() {
   return <>
@@ -21,6 +23,10 @@ function App() {
       <Route path='/column' element={Column()} />
       <Route path='/pyramid' element={Pyramid()} />
       <Route path='/pie' element={Pie()} />
+      <Route path="/see-more" element={More()} />
+      <Route path="/project/see-more" element={More()} />
+      <Route path="/support-us" element={Support()} />
+      <Route path="/project/support-us" element={Support()} />
     </Routes>
   </>;
 }

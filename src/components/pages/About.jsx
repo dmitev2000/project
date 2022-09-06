@@ -31,7 +31,17 @@ const About = () => {
           <img src={company} alt="" />
         </div>
       </div>
-      <h3>Our locations</h3>
+      <h3>
+        Our locations
+        <lord-icon
+          src="https://cdn.lordicon.com/oaflahpk.json"
+          trigger="loop"
+          delay="2000"
+          colors="primary:#ff6a3d"
+          state="hover-jump-spin"
+          style={{width:"50px", height:"50px"}}
+        ></lord-icon>
+      </h3>
       <MapsComponent id="my-map">
         <Inject services={[MapsTooltip, Marker]} />
         <LayersDirective>
@@ -53,9 +63,10 @@ const About = () => {
                 animationDuration={0}
                 dataSource={[
                   { latitude: 42.00517, longitude: 21.40804 },
-                  { latitude: 49.95121990866204, longitude: 18.46874999999998 },
-                  { latitude: 50.7677555323131, longitude: -98.46874999999998 },
-                  { latitude: 59.95121990866204, longitude: 88.46874999999998 },
+                  { latitude: -33.8688, longitude: 151.2093 },
+                  { latitude: 41.8781, longitude: -87.6298 },
+                  { latitude: 55.7558, longitude: 37.6173 },
+                  { latitude: -34.6037, longitude: -58.3816 },
                 ]}
               ></MarkerDirective>
             </MarkersDirective>

@@ -37,8 +37,8 @@ const Home = () => {
           soluta? Dignissimos voluptates animi, voluptatem odit similique a iure
           commodi error quibusdam!
         </p>
-        <Button url="#!" text="See more" />
-        <Button url="#!" text="Support us" />
+        <Button path="see-more" text="See more" />
+        <Button path="support-us" text="Support us" />
       </div>
 
       <div className="subs">

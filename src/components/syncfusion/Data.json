@@ -9,8 +9,8 @@
     {
       "Id": "1",
       "Subject": "Dentist appointment",
-      "EndTime": "Sun Aug 21 2022 12:00:00 GMT+0200 (Central European Summer Time)",
-      "StartTime": "Sun Aug 21 2022 11:00:00 GMT+0200 (Central European Summer Time)"
+      "EndTime": "Fri Sep 15 2022 12:00:00 GMT+0200 (Central European Summer Time)",
+      "StartTime": "Fri Sep 15 2022 11:00:00 GMT+0200 (Central European Summer Time)"
     },
     {
       "Id": "2",
@@ -23,6 +23,30 @@
       "Subject": "First school day in 2022/23",
       "EndTime": "Thu Sep 01 2022 11:00:00 GMT+0200 (Central European Summer Time)",
       "StartTime": "Thu Sep 01 2022 07:00:00 GMT+0200 (Central European Summer Time)"
+    },
+    {
+      "Id": "4",
+      "Subject": "Some activity",
+      "EndTime": "Mon Sep 12 2022 20:30:00 GMT+0200 (Central European Summer Time)",
+      "StartTime": "Mon Sep 12 2022 22:30:00 GMT+0200 (Central European Summer Time)"
+    },
+    {
+      "Id": "5",
+      "Subject": "Another activity",
+      "EndTime": "Tue Sep 13 2022 13:30:00 GMT+0200 (Central European Summer Time)",
+      "StartTime": "Tue Sep 13 2022 17:00:00 GMT+0200 (Central European Summer Time)"
+    },
+    {
+      "Id": "6",
+      "Subject": "Yet another activity",
+      "EndTime": "Tue Sep 13 2022 12:15:00 GMT+0200 (Central European Summer Time)",
+      "StartTime": "Tue Sep 13 2022 12:25:00 GMT+0200 (Central European Summer Time)"
+    },
+    {
+      "Id": "7",
+      "Subject": "Sports day",
+      "EndTime": "Sat Sep 16 2022 16:00:00 GMT+0200 (Central European Summer Time)",
+      "StartTime": "Sat Sep 16 2022 22:00:00 GMT+0200 (Central European Summer Time)"
     }
   ],
   "lineChart": [

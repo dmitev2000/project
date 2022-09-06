@@ -1,11 +1,13 @@
 import "./UI.css";
+import { Link } from "react-router-dom";
 
-const Button = ({ url, text }) => {
+const Button = ({ path, text }) => {
+
   return (
-    <a href={url} className="custom-button">
+    <Link to={path} className="custom-button">
       {text}
       <span></span>
-    </a>
+    </Link>
   );
 };
 
