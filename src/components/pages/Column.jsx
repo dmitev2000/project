@@ -39,7 +39,16 @@ const Column = () => {
   }
   return (
     <div className="container pb-5 pt-5">
-      <h1 className="mb-5">Column chart</h1>
+      <h1 className="mb-5">
+        Column chart
+        <lord-icon
+          src="https://cdn.lordicon.com/oegrrprk.json"
+          trigger="loop"
+          delay="1000"
+          colors="primary:#1a2238,secondary:#ff6a3d,tertiary:#ffc738,quaternary:#4bb3fd"
+          style={{ width: "80px", height: "80px" }}
+        ></lord-icon>
+      </h1>
       <ChartComponent
         id="column-chart"
         primaryXAxis={{ valueType: "Category", title: "Countries" }}

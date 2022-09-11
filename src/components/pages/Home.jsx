@@ -86,12 +86,12 @@ const Home = () => {
       </div>
 
       <div className="images">
-        <img src="https://source.unsplash.com/random/1000x1000" alt="random" />
-        <img src="https://source.unsplash.com/random/1000x1001" alt="random" />
-        <img src="https://source.unsplash.com/random/1001x1000" alt="random" />
-        <img src="https://source.unsplash.com/random/1001x1001" alt="random" />
-        <img src="https://source.unsplash.com/random/1000x1002" alt="random" />
-        <img src="https://source.unsplash.com/random/1001x1002" alt="random" />
+        <img src="https://source.unsplash.com/random/1000x1000?sig=1" alt="random1" />
+        <img src="https://source.unsplash.com/random/1000x1000?sig=2" alt="random2" />
+        <img src="https://source.unsplash.com/random/1000x1000?sig=3" alt="random3" />
+        <img src="https://source.unsplash.com/random/1000x1000?sig=4" alt="random4" />
+        <img src="https://source.unsplash.com/random/1000x1000?sig=5" alt="random5" />
+        <img src="https://source.unsplash.com/random/1000x1000?sig=6" alt="random6" />
       </div>
     </div>
   );

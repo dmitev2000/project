@@ -39,7 +39,16 @@ const Pie = () => {
 
   return (
     <div className="container pb-5 pt-5">
-      <h1 className="mb-5">Pie chart</h1>
+      <h1 className="mb-5">
+        Pie chart
+        <lord-icon
+          src="https://cdn.lordicon.com/ufhkbmmj.json"
+          trigger="loop"
+          delay="1000"
+          colors="primary:#f24c00,secondary:#1a2238"
+          style={{ width: "80px", height: "80px" }}
+        ></lord-icon>
+      </h1>
       <AccumulationChartComponent
         id="pie-chart"
         legendSettings={{ visible: true }}

@@ -36,10 +36,19 @@ const Pyramid = () => {
       </div>
     );
   }
-  
+
   return (
     <div className="container pt-5 pb-5">
-      <h1>Pyramid chart</h1>
+      <h1>
+        Pyramid chart
+        <lord-icon
+          src="https://cdn.lordicon.com/yalhptlk.json"
+          trigger="loop"
+          delay="1000"
+          colors="primary:#ff6a3d,secondary:#1a2238,tertiary:#ffffff"
+          style={{ width: "80px", height: "80px" }}
+        ></lord-icon>
+      </h1>
       <AccumulationChartComponent id="pyramid-chart" tooltip={{ enable: true }}>
         <Inject
           services={[

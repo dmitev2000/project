@@ -39,7 +39,16 @@ const Todo = () => {
 
   return (
     <div className="container pt-5 pb-5">
-      <h1 className="mb-5">ToDo (Scheduler)</h1>
+      <h1 className="mb-5">
+        ToDo (Scheduler)
+        <lord-icon
+          src="https://cdn.lordicon.com/hrqqslfe.json"
+          trigger="loop"
+          delay="1000"
+          colors="primary:#ff6a3d,secondary:#1a2238"
+          style={{ width: "80px", height: "80px" }}
+        ></lord-icon>
+      </h1>
       <ScheduleComponent currentView="Month" eventSettings={fetchData}>
         <Inject services={[Day, Week, WorkWeek, Month, Agenda]} />
       </ScheduleComponent>

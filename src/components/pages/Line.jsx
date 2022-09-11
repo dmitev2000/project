@@ -41,7 +41,16 @@ const Line = () => {
 
   return (
     <div className="container pt-5 pb-5">
-      <h1 className="mb-5">Line chart</h1>
+      <h1 className="mb-5">
+        Line chart
+        <lord-icon
+          src="https://cdn.lordicon.com/mbyuiidf.json"
+          trigger="loop"
+          delay="1000"
+          colors="primary:#1a2238,secondary:#f24c00"
+          style={{ width: "80px", height: "80px" }}
+        ></lord-icon>
+      </h1>
       <ChartComponent
         id="line-chart"
         primaryXAxis={{ valueType: "Category" }}
