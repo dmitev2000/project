@@ -36,6 +36,19 @@
   border-top-right-radius: 25px;
 }
 
+.barcode-gen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 25px;
+  color: #1a2238;
+  border: inset 2px #1a2238;
+  border-radius: 25px;
+  padding: 10px;
+  max-width: 350px;
+  margin: 25px auto;
+}
+
 .home-page .images {
   padding: 55px;
   display: flex;
@@ -50,7 +63,7 @@
   max-height: 200px;
   border-radius: 20px;
   box-shadow: 0 0 20px #1a2238;
-  transition: 0.5s;
+  transition: 0s;
   cursor: pointer;
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);

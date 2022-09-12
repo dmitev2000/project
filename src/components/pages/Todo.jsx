@@ -40,7 +40,7 @@ const Todo = () => {
   return (
     <div className="container pt-5 pb-5">
       <h1 className="mb-5">
-        ToDo (Scheduler)
+        ToDo
         <lord-icon
           src="https://cdn.lordicon.com/hrqqslfe.json"
           trigger="loop"

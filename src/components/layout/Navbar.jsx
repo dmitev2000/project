@@ -63,6 +63,14 @@ const Navbar = () => {
                   <i className="bi bi-calendar2-date"></i>
                   <span>Calendar</span>
                 </Link>
+                <Link to="/pdfviewer" className="nav-link">
+                  <i className="bi bi-filetype-pdf"></i>
+                  <span>PDF Viewer</span>
+                </Link>
+                <Link to="/text-editor" className="nav-link">
+                  <i className="bi bi-pencil-square"></i>
+                  <span>Text Editor</span>
+                </Link>
               </div>
             </div>
           </li>
